@@ -48,5 +48,5 @@ with creating env from yml file
 * pip install tqdm
 
 
-Note: all of the files conatain commenting.
+Note: all of the files contain commenting.
 
