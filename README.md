@@ -20,7 +20,7 @@ Because of this, I did testing in a linear manner where predictions were being a
 
 #### To run
 * you need to have Anaconda installed
-* Run commad "conda env create -f environment.yml" to create environment from provided .yml file. Name of the env is 'nl'
+* Run commad "conda env create -f nl.yml" to create environment from provided .yml file. Name of the env is 'nl'
 * After this, activate the conda environment
 * To run .ipynb, you need to set the path for both files at the beginning of the file and you can run
 * To run .py code, you to need to set path for both data files in the config.py. You also need to set path (to save) for feature importance plot as well as backtesting plot
@@ -36,6 +36,17 @@ Because of this, I did testing in a linear manner where predictions were being a
 * Used Root Mean Squared Error (RMSE) to measure the performance of the model
   * RMSE is calculated daywise as well as hourly
 * Backtesting plot is plotted daywise instead of plotting around 8k hourly predictions for visual simplicity.
+
+#### dependencies
+Creating conda env from yml file should not be a problem but here is the list of modules/dependencies needed to be in the environment in case of any issue
+with creating env from yml file
+* Python 3.6.12 (python version)
+* pip install pandas
+* pip install matplotlib
+* pip install scikit-learn
+* pip install xgboost (sklearn needs to be installed before scikit-learn)
+* pip install tqdm
+
 
 Note: all of the files conatain commenting.
 
