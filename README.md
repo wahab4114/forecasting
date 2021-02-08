@@ -44,7 +44,7 @@ with creating env from yml file
 * pip install pandas
 * pip install matplotlib
 * pip install scikit-learn
-* pip install xgboost (sklearn needs to be installed before scikit-learn)
+* pip install xgboost (sklearn needs to be installed before xgboost)
 * pip install tqdm
 
 
